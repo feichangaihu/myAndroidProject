@@ -1,5 +1,6 @@
 package studio.imobile.gitlab.myandroidproject
 
+import android.content.res.Resources
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         // Example of a call to a native method
         sample_text.text = stringFromJNI()
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
