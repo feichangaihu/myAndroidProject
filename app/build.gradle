@@ -31,6 +31,7 @@ android {
             path "CMakeLists.txt"
         }
     }
+
     splits {
 
         // Configures multiple APKs based on screen density.
